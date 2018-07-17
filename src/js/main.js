@@ -3,6 +3,7 @@ let boton = $("#boton");
 let lastInput = $("#last_name");
 let emailInput = $("#email");
 let password = $("#password");
+let resultado = $("#result");
 
 
 boton.click(event => {
@@ -16,23 +17,30 @@ boton.click(event => {
 });
 
 
-set = () => {
-  let str = "Este es el string del usuario ";
-  let usr = {
-    name: "jonh",
-    "cel": 123123123,
-    "tall": 1.87,
-    "age": 32
-  }
-  localStorage.setItem("usuario", JSON.stringify(usr) )
-}
 
-get = () => {
-  let resultado = localStorage.getItem("usuario");
-  console.log(resultado);
-}
 
-set();
+// primer ejercicio
+
+
+
+
+// set = () => {
+//   let str = "Este es el string del usuario ";
+//   let usr = {
+//     name: "jonh",
+//     "cel": 123123123,
+//     "tall": 1.87,
+//     "age": 32
+//   }
+//   localStorage.setItem("usuario", JSON.stringify(usr) )
+// }
+
+// get = () => {
+//   let resultado = JSON.parse(localStorage.getItem("usuario"));
+//   console.log(resultado);
+// }
+
+// // set();
 // get();
 
 
