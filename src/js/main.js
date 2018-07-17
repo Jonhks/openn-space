@@ -3,7 +3,6 @@ let boton = $("#boton");
 let lastInput = $("#last_name");
 let emailInput = $("#email");
 let password = $("#password");
-let resultado = $("#result");
 
 
 boton.click(event => {
